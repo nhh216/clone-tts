@@ -33,10 +33,9 @@ def nat_normalize_text(text):
 
 text = nat_normalize_text(args.text)
 print("Normalized text input:", text)
-print("Normalized text input: 123123123")
+print("Normalized text input 22")
 mel = text2mel(text, args.lexicon_file, args.silence_duration)
 wave = mel2wave(mel)
-f.open(str(args.output), 'w+')
+open(str(args.output), 'w+')
 print("writing output to file", args.output)
-print("123123")
 sf.write(str(args.output), wave, samplerate=args.sample_rate)
