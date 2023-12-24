@@ -1,7 +1,7 @@
 from setuptools import setup
 
 __version__ = "0.4.1"
-url = "https://github.com/ntt123/vietTTS"
+url = "https://github.com/nhh216/clone-tts"
 
 install_requires = [
     "dm-haiku",
